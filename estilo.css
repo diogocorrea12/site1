@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+background-image:url(./img/quiz.jpg);
+color:black;
+}
+h1{
+text-align:center;
+font-family:Comic Sans MS;
+font-size:20pt;
+text-shadow:2px 2px 2px blue;
+}
+h2{
+text-align:center;
+font-family:Comic Sans MS;
+font-size:16pt;
+text-shadow:2px 2px 2px blue;
+}
+.btn{
+font-family:arial;
+font-size:18px;
+text-transform:uppercase;
+font-weight:700;
+border:none;
+padding:10px;
+display:inline-block;
+text-decoration:none;
+}
+.btn-yellow{
+background:#1E90FF;
+color:white;
+box-shadow:0 5px 0 blue;
+}
+.btn-yellow:hover{
+background:#00BFFF;
+color:#0F0000:
+box-shadow:0 5px 0 blue;
+}
+.btn-yellow:active{
+position:relative:
+top:5px;
+box-shadow:none;
+}
