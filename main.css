@@ -1,0 +1,145 @@
+@charset "UTF-8";
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: arial;
+    color: white;
+    background-image:url(../img/fundo.jpg);
+}
+.menu-principal{
+    width: 100%;
+    background-color:#252323;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+}
+main{
+    margin: 0 auto;
+    position: relative;
+    
+}
+.logo{
+    float: right;
+    padding: 5px;
+    height: 100px;
+    position: absolute;  
+}
+.station{
+    float: right;
+    padding: 10px;
+    height: 50px;
+    position: fixed;
+    left:500px;
+    
+    
+}
+.cr{
+    padding: 5px;
+    position: fixed;
+}
+.header-2{
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 13px;
+}
+.menu-urls{
+ border-bottom: 1px solid #efefef;
+
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    background-color: #252323;
+    height: 5%;
+}
+
+}
+.header-1{
+    margin: 0 auto;
+    position: fixed;
+}
+
+.menu ul{
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%
+}
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 25px;
+    height: 35px;
+}
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #00bac6;
+    margin-bottom: -3px;
+}
+.menu ul li a:hover {
+    color: #00bac6;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+#home{
+padding: 100px;
+}
+#conceito {
+padding: 100px;
+}
+#tipos{
+padding: 100px;
+}
+#memória{
+padding: 100px;
+}
+#preços{
+padding: 100px;
+}
+#componentes{
+padding: 100px;
+}
+#quiz{
+    padding: 100px;
+}
+.btn{
+font-family:arial;
+font-size:13px;
+text-transform:uppercase;
+font-weight:700;
+border:none;
+padding:10px;
+display:inline-block;
+text-decoration:none;
+}
+.btn-yellow{
+background:#1E90FF;
+color:white;
+box-shadow:0 5px 0 blue;
+}
+.btn-yellow:hover{
+background:#00BFFF;
+color:#0F0000;
+box-shadow:0 5px 0 blue;
+}
+.btn-yellow:active{
+position:relative;
+top:5px;
+box-shadow:none;
+}
+
+
+
